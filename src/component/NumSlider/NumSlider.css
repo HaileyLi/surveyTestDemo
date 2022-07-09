@@ -1,0 +1,73 @@
+.slider-wrap {
+  margin: 0 20px 0 20px;
+  text-align: center;
+}
+/* label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementTop.css-1hpqosy-MuiFormControlLabel-root {
+  margin: 0;
+} */
+
+.explain {
+  display: flex;
+  font-size: 12px;
+}
+.explain p.first {
+  text-align: left;
+  width: 50%;
+}
+.explain p.last {
+  text-align: right;
+  width: 50%;
+}
+.NumSlider-container.content-container span.MuiTypography-root {
+  font-size: 12px;
+}
+.NumSlider-container.content-container label.MuiFormControlLabel-root {
+  margin: 0;
+}
+.MuiFormGroup-root.MuiFormGroup-row {
+  width: 100%;
+  justify-content: space-between;
+}
+.NumSlider-container.content-container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.slider-wrap .MuiFormControlLabel-root {
+  width: 70px;
+}
+
+@media only screen and (max-width: 700px) {
+  .slider-wrap {
+    display: flex;
+  }
+  .explain {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100px;
+  }
+
+  .MuiFormGroup-root.MuiFormGroup-row {
+    flex-direction: column;
+  }
+  label.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementTop {
+    flex-direction: row;
+  }
+  .slider-wrap {
+    margin: 0;
+  }
+  .explain p.first {
+    text-align: left;
+    width: 100%;
+  }
+  .explain p.last {
+    text-align: left;
+    width: 100%;
+  }
+  .NumSlider-container.content-container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .slider-wrap .MuiFormControlLabel-root {
+    width: 100%;
+  }
+}

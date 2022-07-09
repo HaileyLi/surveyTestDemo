@@ -1,0 +1,312 @@
+[
+    {
+        "id": "q1",
+        "index": 1,
+        "body": "What gender do you identify as?",
+        "selections": [
+            "Male",
+            "Female",
+            "Other",
+            "Prefer not to say"
+        ],
+        "type": "choice"
+    },
+    {
+        "id": "q2",
+        "index": 2,
+        "body": "What is your age?",
+        "selections": [
+            "21-30",
+            "31-40",
+            "41-50",
+            "51-60",
+            "61-70",
+            "70+",
+            "Prefer not to say"
+        ],
+        "type": "choice"
+    },
+    {
+        "id": "q3",
+        "index": 3,
+        "body": "What is the highest degree or level of education you have completed?",
+        "selections": [
+            "High School",
+            "Some college credit, no degree",
+            "Bachelor's Degree",
+            "Master's Degree",
+            "Ph.D. or higher",
+            "Other",
+            "Prefer not to say"
+        ],
+        "type": "choice"
+    },
+    {
+        "id": "q4",
+        "index": 4,
+        "body": "What is your current employement status?",
+        "selections": [
+            "Full-time employment",
+            "Part-time employment",
+            "Unemployed",
+            "Self-employed",
+            "Student",
+            "Retired",
+            "Other",
+            "Prefer not to say"
+        ],
+        "type": "choice"
+    },
+    {
+        "id": "q5",
+        "index": 5,
+        "body": "Where are you right now?",
+        "selections": [
+            "At home",
+            "At work",
+            "At school or study",
+            "With friends, family or neighbors",
+            "Elsewhere",
+            "Prefer not to say"
+        ],
+        "type": "choice"
+    },
+    {
+        "id": "q6",
+        "index": 6,
+        "body": "Overall, how satisfied are you with your life nowadays?",
+        "type": "slider",
+        "lowestDesc": "Very unsatisfied",
+        "highestDesc": "Very satisfied"
+    },
+    {
+        "id": "q7",
+        "index": 7,
+        "body": "Overall, to what extent do you feel that the things you do in your life are worthwhile?",
+        "type": "slider",
+        "lowestDesc": "Not at all",
+        "highestDesc": "Very worthwhile"
+    },
+    {
+        "id": "q8",
+        "index": 8,
+        "body": "Overall, how anxious did you feel yesterday?",
+        "type": "slider",
+        "lowestDesc": "Not at all",
+        "highestDesc": "Very anxious"
+    },
+    {
+        "id": "q9",
+        "index": 9,
+        "body": "Overall, how happy did you feel yesterday?",
+        "type": "slider",
+        "lowestDesc": "Very unhappy",
+        "highestDesc": "Very happy"
+    },
+    {
+        "id": "q10",
+        "index": 10,
+        "body": "Things that you do in your free time",
+        "type": "text"
+    },
+    {
+        "id": "q11",
+        "index": 11,
+        "body": "Do you have any hobbies? (Please check any activities that apply)",
+        "type": "checkbox",
+        "selections": [
+            "Reading",
+            "Art/Crafts",
+            "Games",
+            "Photography",
+            "Cooking",
+            "Fishing",
+            "Music",
+            "Watching TV/Movies",
+            "Sports",
+            "Travelling"
+        ]
+    },
+    {
+        "id": "q12",
+        "index": 12,
+        "body": "How often do you play video or computer or mobile games?",
+        "type": "choice",
+        "selections": [
+            "At least once a day",
+            "At least once a week",
+            "Less often than once a week but at least once a month",
+            "Less often than once a month but at least 3 or 4 times a year",
+            "At least once a year",
+            "Less often than once a year",
+            "Prefer not to say"
+        ]
+    },
+    {
+        "id": "q13",
+        "index": 13,
+        "body": "How would you rate your computer skill?",
+        "type": "slider",
+        "lowestDesc": "Very bad",
+        "highestDesc": "Very good"
+    },
+    {
+        "id": "q14",
+        "index": 14,
+        "body": "Which device do you most use in everyday life to access the internet?",
+        "type": "choice",
+        "selections": [
+            "Computer or laptop",
+            "Smartphone",
+            "Tablet",
+            "All above equally",
+            "Prefer not to say"
+        ]
+    },
+    {
+        "id": "q15",
+        "index": 15,
+        "body": "How often do you use the Internet?",
+        "type": "choice",
+        "selections": [
+            "More than once a day",
+            "Once a day",
+            "Once a month",
+            "Less than once a month",
+            "Prefer not to say"
+        ]
+    },
+    {
+        "id": "q16",
+        "index": 16,
+        "body": "Name of your favorite mobile application?",
+        "type": "text"
+    },
+    {
+        "id": "q17",
+        "index": 17,
+        "body": "How often do you post on social media?",
+        "type": "choice",
+        "selections": [
+            "Very often",
+            "Somewhat often",
+            "Rarely",
+            "Prefer not to say"
+        ]
+    },
+    {
+        "id": "q18",
+        "index": 18,
+        "body": "What was/were the type of sport(s) you did in the last four weeks?",
+        "type": "text"
+    },
+    {
+        "id": "q19",
+        "index": 19,
+        "body": "Did you do any paid work in the seven days ending last Sunday, either as an employee or as self-employed?",
+        "type": "choice",
+        "selections": [
+            "Yes",
+            "No",
+            "Prefer not to say"
+        ]
+    },
+    {
+        "id": "q20",
+        "index": 20,
+        "body": "How is your health in general?",
+        "type": "choice",
+        "selections": [
+            "Very good",
+            "Good",
+            "Alright",
+            "Bad",
+            "Very bad",
+            "Prefer not to say"
+        ]
+    },
+    {
+        "id": "q21",
+        "index": 21,
+        "body": "You would feel a real loss if you were forced to give up",
+        "type": "checkbox",
+        "selections": [
+            "Taking part in arts activities in the future",
+            "Visiting museums and galleries in the future",
+            "Visiting heritage sites in the future",
+            "Taking part in sport in the future",
+            "Playing video or computer games"
+        ]
+    },
+    {
+        "id": "q22",
+        "index": 22,
+        "body": "Name one thing that is the most important to you in life",
+        "type": "text"
+    },
+    {
+        "id": "q23",
+        "index": 23,
+        "body": "On average, how would you rate the quality of your sleep?",
+        "type": "choice",
+        "selections": [
+            "Excellent",
+            "Good",
+            "Fair",
+            "Poor",
+            "Prefer not to say"
+        ]
+    },
+    {
+        "id": "q24",
+        "index": 24,
+        "body": "How interesting did you find the questions?",
+        "type": "slider",
+        "lowestDesc": "Not interesting",
+        "highestDesc": "Very interesting"
+    },
+    {
+        "id": "q25",
+        "index": 25,
+        "body": "How easy was it to answer the questions?",
+        "type": "slider",
+        "lowestDesc": "Very hard",
+        "highestDesc": "Very easy"
+    },
+    {
+        "id": "q26",
+        "index": 26,
+        "body": "How clear did you find the wording of the questions?",
+        "type": "slider",
+        "lowestDesc": "Not clear",
+        "highestDesc": "Very clear"
+    },
+    {
+        "id": "q27",
+        "index": 27,
+        "body": "What did you think of the layout?",
+        "type": "slider",
+        "lowestDesc": "I don’t like it",
+        "highestDesc": "I like it"
+    },
+    {
+        "id": "q28",
+        "index": 28,
+        "body": "How do you think of the length of the survey?",
+        "type": "slider",
+        "lowestDesc": "Very short",
+        "highestDesc": "Very long"
+    },
+    {
+        "id": "q29",
+        "index": 29,
+        "body": "Rate of overall experience for this survey.",
+        "type": "rating"
+    },
+    {
+        "id": "q30",
+        "index": 30,
+        "body": "Do you have other comments regarding the questionnaire?",
+        "type": "text"
+    }
+]

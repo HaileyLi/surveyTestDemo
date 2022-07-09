@@ -1,0 +1,82 @@
+.consent-container {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 700px) {
+  .consent-container {
+    width: 100%;
+    background: #ffffff1a;
+    border-radius: 0;
+  }
+}
+.button-row {
+  margin-top: 50px;
+}
+
+.button-row p {
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.consent-container {
+  border-radius: unset;
+}
+
+.sup-title {
+  text-align: center;
+  margin-bottom: 0;
+  color: #dfdfdf;
+  font-weight: 900;
+  font-size: 18px;
+}
+.survey-title {
+  margin-top: 5px;
+}
+
+.consent-scroll {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #d0d0d054;
+  padding: 10px 30px;
+}
+.consent-scroll::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+.consent-scroll::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+.consent-scroll h2 {
+  text-align: center;
+}
+
+.consent-scroll p {
+  font-size: 12px;
+}
+.consent-scroll h2 {
+  font-size: 18px;
+}
+.consent-scroll h3 {
+  font-size: 15px;
+}
+
+.consent-container .button-row button {
+  width: 100%;
+}
+
+.pdf-download a {
+  font-size: 12px;
+  color: #1c64c0;
+  margin-bottom: 10px;
+}
+.further-info p {
+  font-size: 8px;
+  color: #575757;
+}

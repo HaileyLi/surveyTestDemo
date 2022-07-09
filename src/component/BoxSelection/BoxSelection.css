@@ -1,0 +1,6 @@
+.checkbox-row label span {
+  font-size: 14px;
+}
+.checkbox-row label.MuiFormControlLabel-root {
+  width: 100%;
+}
